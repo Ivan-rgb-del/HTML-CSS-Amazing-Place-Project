@@ -1,0 +1,82 @@
+.category{
+    padding: 40px 0;
+    position: relative;
+    position: relative;
+}
+
+/*.category-box-1{
+    flex-basis: 60%;
+}*/
+
+.category-box-1 hr{
+    margin-top: 2rem;
+}
+
+.category-box-2{
+    /*flex-basis: 40%;*/
+    text-align: center;
+}
+
+.category .btn{
+    display: inline-block;
+    background: lightblue;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 16px 40px;
+    border-radius: 30px;
+    transition: 250ms ease-in-out;
+}
+
+.category .btn:hover{
+    transform: scale(0.98);
+}
+
+.category .category-box-1 .text{
+    margin-top: 4rem;
+}
+
+.category .category-box-1 .text h3{
+    font-size: 2rem;
+    color: #333;
+}
+
+.category .category-box-1 .text p{
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.category .category-box-1 .text .btn{
+    align-items: center;
+}
+
+.category .category-box-1 .text .btn i{
+    margin-left: 10px;
+}
+
+.percent{
+    width: 60%;
+    margin: auto;
+}
+
+.percent .cat-per{
+    background: lightblue;
+    margin-top: 1rem;
+    border-radius: 40px;
+    padding: 12px 20px;
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.3);
+}
+
+.percent .cat-per div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.percent .cat-per div h3{
+    font-weight: 100;
+}
+
+.percent .cat-per div p{
+    font-size: 18px;
+}

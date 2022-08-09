@@ -1,0 +1,89 @@
+.footer{
+    padding: 40px 0;
+    background: #222;
+    color: white;
+}
+
+.footer .footer-box h3{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.footer .footer-box p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #999;
+}
+
+.footer .footer-box .flex{
+    display: flex;
+    align-items: center;
+}
+
+.footer .footer-box .flex input{
+    width: 220px;
+    height: 35px;
+    background: black;
+    border: none;
+    color: white;
+}
+
+.footer .footer-box .flex input::placeholder{
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.footer .footer-box .flex i{
+    font-size: 40px;
+    background: lightblue;
+    color: #333;
+}
+
+.footer .footer-box .margin i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.footer .copy{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer .copy p{
+    color: #888;
+    font-size: 20px;
+}
+
+#arrow {
+    background: #222;
+    color: black;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 0.25s ease-in-out;
+}
+
+#arrow:hover {
+    color: #999;
+    transition: 0.25s ease-in-out;
+}
+
+#social-media {
+    padding: 5px;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+}
+
+#social-media:hover {
+    color: purple;
+    transition: 0.2s ease-in;
+    text-decoration: none;
+}
+
+.fa-facebook-f,
+.fa-instagram,
+.fa-twitter,
+.fa-youtube {
+    text-decoration: none;
+}
